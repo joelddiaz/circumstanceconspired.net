@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  body {
+    padding-left: 0px;
+  }
+}
+
+body {
+  position: absolute;
+  #padding-left: 100px;
+  font: 16px/1.5 'Source Sans Pro';
+  margin: 0 auto;
+  max-width: 800px;
+}
+pre {
+  background-color: rgb(238, 238, 238);
+  white-space: pre-wrap;
+  padding: 5px;
+}
+.page_title {
+  font-size: 2em;
+}
+.page_date {
+  font-size: .7em;
+}
+.header_title  {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+h1 {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin: 0;
+}
+nav {
+  padding-bottom: 50px;
+}
+nav li a {
+  float: left;
+  margin: 5px;
+}
+ul.post_list li {
+  font-weight: bold;
+}
+ul.post_entries li {
+  padding-bottom: 20px;
+}
+.post_entries_title {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  font-size: 0.65em;
+}
+footer {
+  padding-top: 20px;
+  text-align: center;
+}

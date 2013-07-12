@@ -1,0 +1,20 @@
+---
+layout: default
+title: Archive
+---
+ 
+<section class="content">
+<span class="page_title">Post Archive</span>
+ 
+<ul class="post_list">
+  {% for post in site.posts %}
+ 
+  <li>
+    {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </li>
+ 
+  {% endfor %}
+</ul>
+</section>
